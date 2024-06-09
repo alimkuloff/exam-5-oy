@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jomolhari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/post.css">
+</head>
+<body>
+    <div class="container">
+       <div class="post_wrapper">
+        <div class="dashboard">
+           <div>
+            <h2>Dashboard</h2>
+            <div class="account">
+                
+            </div>
+            <button>Create Post</button>
+           </div>
+            <a href="./pages/login.html">Sign Out</a>
+        </div>
+        <div class="posts">
+            <h2>Create New Post</h2>
+            <form class="form">
+                <p>Post title</p>
+                <input type="text">
+                <div class="add">
+                    <div  class="add_img">
+                        <p>Post image</p>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <p>Post tag</p>
+                        <input type="text">
+                    </div>
+                    <button>Add</button>
+                </div>
+                <p>Post description</p>
+                <textarea  class="description" rows="5">Post description</textarea>
+                <button class="desc_btn">Create Post</button>
+            </form>
+        </div>
+       </div>
+    </div>
+
+    <script src="../script/post.js"></script>
+</body>
+</html>
